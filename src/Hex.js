@@ -1,6 +1,16 @@
+import { useState } from "react";
+
 const Hex = () => {
+  const [color, setColor] = useState('green');
+  const hexStyle = {
+    background: color
+  }
+
+  const handleClick = () => {
+    setColor('purple');
+  }
   return (
-    <div></div>
+    <div style={hexStyle} onClick={handleClick}></div>
   )
 }
 
