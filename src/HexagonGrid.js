@@ -3,7 +3,7 @@ import Hex from "./Hex"
 const HexagonGrid = () => {
   return (
     <div className="container">
-      {[...Array(20)].map((x, i) =>
+      {[...Array(100)].map((x, i) =>
         <Hex key={i} />
       )}
     </div>
