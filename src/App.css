@@ -17,9 +17,13 @@
   height: calc(var(--s)*1.1547); 
   display: inline-block;
   font-size:initial;
-  clip-path: polygon(0% 25%, 0% 75%, 50% 100%, 100% 75%, 100% 25%, 50% 0%);
+  clip-path: polygon(50% 0%, 93.3% 25%, 93.3% 75%, 50% 100%, 6.7% 75%, 6.7% 25%);
   background: black;
   margin-bottom: calc(var(--m) - var(--s)*0.2885); 
+}
+
+.container div:first-of-type {
+  background: pink;
 }
 
 .container::before {

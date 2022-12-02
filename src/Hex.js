@@ -10,7 +10,7 @@ const Hex = () => {
     setColor('purple');
   }
   return (
-    <div style={hexStyle} onClick={handleClick}></div>
+    <div  onClick={handleClick}></div>
   )
 }
 
